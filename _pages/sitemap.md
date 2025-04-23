@@ -11,7 +11,7 @@ author_profile: true
 
 <h2>网页</h2>
 {% assign target_pages = "publications.html,talks.html,teaching.html,year-archieve.html,portfolio.html"  | split: "," %}
-{% for post in site.posts  %}
+{% for post in site.pages  %}
   {% if target_pages contains post.path  or target_pages contains post.url  %}
     {% include archive-single.html  %}
   {% endif %}
