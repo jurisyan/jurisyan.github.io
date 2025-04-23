@@ -1,18 +1,20 @@
 ---
 layout: archive
-title: "索引"
+title: "Sitemap"
 permalink: /sitemap/
 author_profile: true
 ---
 
 {% include base_path %}
 
-这里可以查找到这个网站的所有相关信息。这里还有一个 [XML 版本]({{ base_path }}/sitemap.xml) available for digesting as well.
+这里可以查找到这个网站的所有相关信息。这里还有一个 [XML 版本]({{ base_path }}/sitemap.xml) 
 
 <h2>网页</h2>
 {% assign target_pages = "publications.html,talks.html,teaching.html,year-archieve.html,portfolio.html"  | split: "," %}
-{% for post in target_pages %}
-  {% include archive-single.html %}
+{% for post in site.posts  %}
+  {% if target_pages contains post.path  or target_pages contains post.url  %}
+    {% include archive-single.html  %}
+  {% endif %}
 {% endfor %}
 
 <h2>帖子</h2>
