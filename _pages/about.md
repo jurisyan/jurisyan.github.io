@@ -9,6 +9,8 @@ redirect_from:
 
 我叫龙可韩，就读于[清华大学国际地区研究院](https://iias.tsinghua.edu.cn)，导师为清华大学经济管理学院院长[白重恩](https://www.sem.tsinghua.edu.cn/info/1206/31960.htm)教授和清华大学经济管理学院经济系副系主任[马弘](https://www.sem.tsinghua.edu.cn/info/1190/33206.htm)教授。我的专业为理论经济学(10043)博士研究生，研究方向为非洲的经济学。
 
+从前有座山
+
 重要新闻
 ======
 _2024-11_ 我加入了清华大学学生领导力“唐仲英计划”
